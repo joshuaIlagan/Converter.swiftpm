@@ -17,6 +17,7 @@ struct ContentView: View
       } //: Picker
       .pickerStyle(SegmentedPickerStyle())
       .padding()
+      Spacer()
       
       if selectedView == 0
       {
@@ -27,6 +28,7 @@ struct ContentView: View
       {
           Decimal_to_Binary_View()
       }
+        Spacer()
     }
   }
 }
